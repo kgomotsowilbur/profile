@@ -8,7 +8,7 @@ export default function Skills() {
     //data modeling
     const imagesB = ["/mongoose.png", "/mongodb.png", "/sql.png", "/sqlserver.png", "/cosmosdb.png", "/lucid.png"]
     // framwork & languages 
-    const images2 = ["/react.png", "/JS.png", "/Typescript.png", "/next.png", "/redux.png", "/dotnet.png", "/csharp.png", "/blazor.png"]
+    const images2 = ["/react.png", "/JS.png", "/Typescript.png", "/next.png", "/redux.png", "/dotnet.png", "/csharp1.png", "/blazor1.png"]
     const images1 = ["/tailwind.png", "/Bootstrap.png", "/mudblazor.png","/ionic.png", "/java.png", "/angular.png"]
     const images3 = [ "/Assembly.png", "/C.png", "/Cplus.png", "/css.png", "/Html.png", "/XML.png"]
 
