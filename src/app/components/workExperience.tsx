@@ -23,7 +23,7 @@ export default function WorkExperience() {
                     <div>
                         <p className="text-base md:text-lg font-semibold font-serif text-purple-50 text-center w-full antialiased mb-2">Junior Software Developer duties:</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Azure DevOps for recieving and closing refined tasks on weekly sprints</p>    
-                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Server SQL Management Studio to access the system's database</p>
+                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Server SQL Management Studio to access the systems database</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Visual Studio for the .Net core backend, and AngularJS frontend (website)</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Webstorm for Angular 12 frontend (mobile app)</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Postman for testing and debugging</p>

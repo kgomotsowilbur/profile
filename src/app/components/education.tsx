@@ -64,7 +64,7 @@ export default function Education() {
                     <div className="h-full w-[70%] md:w-[85%] flex flex-col justify-center">
                         <h1 className="hidden md:block text-lg font-bold font-serif text-purple-50 text-center w-full antialiased">OSIZWENI SECONDARY SCHOOL</h1>
                         <h1 className="text-base font-thin font-serif text-purple-50 text-center w-full antialiased">(01/2011 - 12/2015)</h1>
-                        <h1 className="text-base font-thin font-serif text-purple-50 text-center w-full antialiased mt-4">Obtained Matric with a Bachelor's pass</h1>
+                        <h1 className="text-base font-thin font-serif text-purple-50 text-center w-full antialiased mt-4">Obtained Matric with a Bachelors pass</h1>
                     </div>
                 </div>
             </motion.div>
