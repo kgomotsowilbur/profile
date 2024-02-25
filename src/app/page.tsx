@@ -16,7 +16,7 @@ export default function Home() {
       <div id="skills" className="w-full h-screen rounded-xl px-4 pt-24">
         <Skills/>
       </div>
-      <div id="work-experience" className="w-full h-screen rounded-xl px-4 pt-24">
+      <div id="work-experience" className="w-full md:h-screen rounded-xl px-4 pt-24">
         <WorkExperience/>
       </div>
     </main>
