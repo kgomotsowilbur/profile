@@ -5,7 +5,7 @@ export default function WorkExperience() {
     return (
         <div className="flex flex-col w-full h-full justify-center p-2 xl:p-4">
             <div className="flex flex-col md:flex-row w-full gap-8">
-                <Link href="https://www.nectarsoft.co.za/" className="flex flex-col w-full md:w-[50%] p-4 rounded-2xl bg-purple-50/5 backdrop-blur-xl gap-4 xl:gap-8">
+                <Link href="https://www.nectarsoft.co.za/" className="flex flex-col w-full md:w-[50%] p-4 rounded-2xl bg-purple-50/5 backdrop-blur-2xl hover:bg-purple-50/10 gap-4 xl:gap-8">
                     <div className="flex flex-row w-full">
                         <Image
                             alt=""
@@ -31,7 +31,7 @@ export default function WorkExperience() {
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Attend in office and online meetings</p>
                     </div>
                 </Link>
-                <Link href="https://www.reecheble.com/" className="flex flex-col w-full md:w-[50%] p-4 rounded-2xl bg-purple-50/5 backdrop-blur-xl gap-4 xl:gap-8">
+                <Link href="https://www.reecheble.com/" className="flex flex-col w-full md:w-[50%] p-4 rounded-2xl bg-purple-50/5 backdrop-blur-2xl hover:bg-purple-50/10 gap-4 xl:gap-8">
                     <div className="flex flex-row w-full">
                         <Image
                             alt=""
@@ -50,12 +50,12 @@ export default function WorkExperience() {
                         <p className="text-base md:text-lg font-semibold font-serif text-purple-50 text-center w-full antialiased mb-2">Full Stack Developer (Intern) duties:</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Azure DevOps, and Github for refining requirements, creating weekly sprints, and opening and closing backlog tasks</p>    
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Azure Cosmosdb, and Mongodb to create databases, store and retrieve data</p>
-                        <p className="text-sm md:text-basefont-base font-serif text-purple-50 text-start w-full antialiased">· Visual Studio for the ASP.Net backend, and Mudblazor frontend (website)</p>
+                        <p className="text-sm md:text-basefont-base font-serif text-purple-50 text-start w-full antialiased">· Visual Studio for ASP.Net backend, and Mudblazor frontend (website)</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Visual Studio Code for MERT stack (mobile app and website)</p>
                         <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Postman, Expo Go, and Android Studio Emulators for debugging</p>
-                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Expo dev and Vercel for hosting apps</p>
-                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Creat Excel spreadsheets, convert .xml to.json and upload json data to mongodb</p>
-                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Collaborate with Developers and meeting held remotely</p>
+                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Expo EAS, and Vercel for hosting apps, and websites</p>
+                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Create Excel spreadsheets, convert .xml spreadsheets to .json data structured files and upload to mongodb</p>
+                        <p className="text-sm md:text-base font-base font-serif text-purple-50 text-start w-full antialiased">· Collaborate with developers through online platforms</p>
                     </div>
                 </Link>
             </div>
