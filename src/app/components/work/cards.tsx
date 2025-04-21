@@ -140,7 +140,7 @@ export default function Cards() {
                             <p className="text-sm md:text-base font-base font-serif  text-start w-full antialiased">· Attend in office and online meetings</p>
                         </div>
                     </Link>
-                    <Link href="https://www.shaper.com/" className="card relative flex flex-col w-[320px] h-[450px] md:w-[550px] md:h-[500px] p-4 rounded-2xl bg-slate-950/60 dark:bg-zinc-50/60 backdrop-blur-2xl hover:bg-slate-950/70 dark:hover:bg-zinc-50/70 gap-4 xl:gap-8">
+                    <Link href="https://www.shaper.co.za/" className="card relative flex flex-col w-[320px] h-[450px] md:w-[550px] md:h-[500px] p-4 rounded-2xl bg-slate-950/60 dark:bg-zinc-50/60 backdrop-blur-2xl hover:bg-slate-950/70 dark:hover:bg-zinc-50/70 gap-4 xl:gap-8">
                         <div className="flex flex-row w-full">
                             <Image
                                 alt=""
@@ -151,7 +151,7 @@ export default function Cards() {
                             />
                             <div className="flex flex-col h-full w-full justify-center">
                                 <h1 className="text-base md:text-lg font-bold font-serif  text-end w-full antialiased">Shaper</h1>
-                                <h1 className="text-base md:text-lg font-thin font-serif  text-end w-full antialiased text-nowrap">(08/01/2024 - current)</h1>
+                                <h1 className="text-base md:text-lg font-thin font-serif  text-end w-full antialiased text-nowrap">(01/08/2024 - current)</h1>
                                 <h1 className="text-base md:text-lg font-thin font-serif  text-end w-full antialiased italic">Hybrid ~ Permanent</h1>
                             </div>
                         </div>
