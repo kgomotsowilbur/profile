@@ -10,11 +10,15 @@
 
 /* global */
 .sidenav {
+  right: calc(50% - 69px);
+  top: 4px;
   animation: slideIn768 2s;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .sidenav {
+    right: 10px;
+    top: calc(50% - 85px);
     animation: slideIn2560 2s;
   }
 }
@@ -43,7 +47,7 @@
   animation: loadFirstBar768 2s;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .first-bar {
     width: 50px;
     animation: loadFirstBar2560 2s;
@@ -148,7 +152,27 @@
   animation: autoRotate768 20s linear infinite;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+  .banner .slider {
+    width: 100px;
+    height: 150px;
+    top: 25%;
+    left: calc(50% - 50px);
+    animation: autoRotate2560 20s linear infinite;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner .slider {
+    width: 120px;
+    height: 150px;
+    top: 25%;
+    left: calc(50% - 60px);
+    animation: autoRotate2560 20s linear infinite;
+  }
+}
+
+@media (min-width: 1440px) {
   .banner .slider {
     width: 160px;
     height: 150px;
@@ -182,11 +206,30 @@
   translateZ(240px);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .banner .slider .item{
+    width: 90px;
     transform: 
     rotateY(calc((var(--position) - 1) * (360 / var(--quantity) * 1deg)))
-    translateZ(460px);
+    translateZ(260px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner .slider .item{
+    width: 120px;
+    transform: 
+    rotateY(calc((var(--position) - 1) * (360 / var(--quantity) * 1deg)))
+    translateZ(320px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner .slider .item{
+    width: 140px;
+    transform: 
+    rotateY(calc((var(--position) - 1) * (360 / var(--quantity) * 1deg)))
+    translateZ(420px);
   }
 }
 
@@ -206,7 +249,7 @@
   top: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .carousel .card {
     left: calc(50% - 275px);
   }

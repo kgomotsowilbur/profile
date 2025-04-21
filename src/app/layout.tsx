@@ -43,18 +43,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[url(/light_background.jpeg)] dark:bg-[url(/dark_background.png)] bg-fixed bg-cover w-[100vw] min-h-[100vh] text-black dark:text-white">
-        <nav className="sidenav fixed top-2 right-[24%] sm:right-[30%] md:top-[34%] w-fit md:right-[10px] flex flex-col h:fit md:h-full transparent z-20">
-          <div className="flex flex-row md:flex-col rounded-full w-full p-2 gap-8 bg-slate-950/60 dark:bg-zinc-50/60 backdrop-blur-xl">
+        <nav className="sidenav fixed flex flex-col z-20">
+          <div className="flex w-[138px] h-[40px] md:w-[50px] md:h-[170px] flex-row md:flex-col rounded-full w-full p-2 gap-8 bg-slate-950/60 dark:bg-zinc-50/60 backdrop-blur-xl">
             <Link className="flex md:w-[34px] items-center justify-center" href={"#profile"}>
               <div 
                 className={"w-[20px] h-[20px] md:w-[30px] md:h-[30px] hover:w-[22px] hover:h-[22px] hover:md:w-[32px] hover:md:h-[32px] bg-[url(/profile_light.svg)] dark:bg-[url(/profile.svg)] bg-cover"}
               />
             </Link>
-            <Link className="flex items-center justify-center" href={"#education"}>
+            {/* <Link className="flex items-center justify-center" href={"#education"}>
               <div 
                 className={"w-[20px] h-[20px] md:w-[30px] md:h-[30px] md:h-[30px] hover:w-[22px] hover:h-[22px] hover:md:w-[32px] hover:md:h-[32px] bg-[url(/education_light.svg)] dark:bg-[url(/education.svg)] bg-cover"}
               />
-            </Link>
+            </Link> */}
             <Link className="flex items-center justify-center" href={"#skills"}>
               <div 
                 className={"w-[20px] h-[20px] md:w-[30px] md:h-[30px] md:h-[30px] hover:w-[22px] hover:h-[22px] hover:md:w-[32px] hover:md:h-[32px] bg-[url(/skills_light.svg)] dark:bg-[url(/skills.svg)] bg-cover"}

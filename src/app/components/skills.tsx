@@ -32,7 +32,7 @@ export default function Skills() {
     return (
         <>
             <div className="flex flex-col gap-2">
-                <h1 className="text-black dark:text-white text-xl xl:text-4xl font-black font-serif  antialiased"
+                <h1 className="text-black dark:text-white text-xl xl:text-4xl font-black font-serif text-shadow antialiased"
                 >Skills</h1>
                 <div className="flex flex-row">
                     <div id="first" className="animate-on-scroll"/>

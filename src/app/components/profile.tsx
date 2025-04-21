@@ -43,7 +43,7 @@ export default function Profile() {
                     <div id="second" className="animate-on-scroll"/>
                 </div>
             </div>
-            <div className="w-full h-full md:h-[80%] rounded-xl md:px-4">
+            <div className="w-full h-full rounded-xl md:px-4">
                 <div className="flex flex-col md:flex-row justify-center w-full h-full gap-4 xl:gap-0">
                     <div ref={parallax.ref} className="spinner grid w-full md:w-[45%] place-items-center">
                         <Image
@@ -63,9 +63,8 @@ export default function Profile() {
                         <div className="flex flex-row w-full justify-center h-[96px] md:h-[90px]">
                             <TypeAnimation
                                 sequence={[
-                                    "BSc graduate in Computer science and Informatics.", 1000,
-                                    "Full stack developer mainly skilled on .Net core and MERT/MEAN stack.", 1000,
-                                    "Versatile, and effective enough to work on end-to-end web development projects, and ensure that the collaboration between front-end and back-end is in sync.", 1000
+                                    "Bachelor of Science graduate in Computer Science and Informatics.", 1000,
+                                    "Full-stack developer with strong proficiency in .NET Core as well as MERT and MEAN stack technologies.", 1000,
                                 ]}
                                 wrapper="h2"
                                 speed={50}
